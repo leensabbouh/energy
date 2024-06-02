@@ -569,7 +569,7 @@ body {
 }
 
 .t-title.-cGreen span {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 @media (max-width:1319px) {
@@ -899,7 +899,7 @@ ol a {
 		width: 79px;
 		height: 100%;
 		content: "";
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 }
 
@@ -1031,7 +1031,7 @@ ol a {
 }
 
 .-cBlue {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .-cBlue2 {
@@ -1039,7 +1039,7 @@ ol a {
 }
 
 .-cGreen {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .-cBlack {
@@ -1095,7 +1095,7 @@ ol a {
 }
 
 .-bgBlue {
-    background: linear-gradient(315deg , #50af9b, #111f29);
+    background: linear-gradient(315deg , #CD9D2B, #111f29);
 }
 
 .-bgGreyBox {
@@ -1113,7 +1113,7 @@ ol a {
 }
 
 .-bgGreen {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .-bgTransparent {
@@ -4181,7 +4181,7 @@ html {
 		color: #f6f6f7
 	}
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item:hover .c-navHorizontal_link:before {
-		background: #3d8172;
+		background: #CD9D2B;
 		opacity: 1
 	}
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item:hover.-invest:not(.-local) .c-navHorizontal_link:before {
@@ -4189,7 +4189,7 @@ html {
 	}
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item:hover.-sustainability .c-navHorizontal_link:before,
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item:hover.-sustainabilityLocal .c-navHorizontal_link:before {
-		background: #50af9b
+		background: #CD9D2B
 	}
 }
 
@@ -4202,7 +4202,7 @@ html {
 		opacity: 1
 	}
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-active.-sustainability .c-navHorizontal_link:before {
-		background-color: #50af9b!important
+		background-color: #CD9D2B!important
 	}
 }
 
@@ -4567,7 +4567,7 @@ html {
 		z-index: 9999;
 		height: 100vh;
 		height: calc(var(--vh, 1vh)*100);
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.l-header.-mobileActive .c-hamburger {
 		background-image: url("../images/close-white.732f2ff6.svg")
@@ -4825,7 +4825,7 @@ html {
 }
 
 .c-submenu.-boxes .c-submenu_box:hover .c-image:after {
-	background: #50af9b;
+	background: #CD9D2B;
 	mix-blend-mode: multiply
 }
 
@@ -4841,7 +4841,7 @@ html {
 	padding: 32px;
 	margin-right: 12px;
 	margin-left: 12px;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	background-image: url("../images/logos.png");
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
@@ -4851,7 +4851,7 @@ html {
 }
 
 .c-submenu.-countries .c-submenu_cases:hover {
-	background-color: #3d8172
+	background-color: #CD9D2B
 }
 
 .c-submenu.-countries .c-submenu_cases .c-arrowLink {
@@ -6424,7 +6424,7 @@ html {
 @media (max-width:991px) {
 	.l-main.-homepage.-local .c-numbersSec .c-stats .c-stat:nth-child(3) {
 		order: 3;
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.l-main.-homepage.-local .c-numbersSec .c-stats .c-stat:nth-child(3)>* {
 		color: #f6f6f7
@@ -7040,7 +7040,7 @@ html {
 
 @media (max-width:991px) {
 	.l-main.-homepage.-local .c-awardsSec_swiper .swiper-slide.-active .c-award figcaption .t-title {
-		color: #50af9b
+		color: #CD9D2B
 	}
 }
 
@@ -7102,7 +7102,7 @@ html {
 		height: auto;
 		padding: 16px 24px;
 		cursor: default;
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 }
 
@@ -7153,7 +7153,7 @@ html {
 	width: 510px;
 	padding: 56px 112px 56px 56px;
 	pointer-events: none;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	opacity: 0;
 	transition: .2s ease-in-out;
 	transform: translate(calc(-50% - 60px), 10px)
@@ -8067,7 +8067,7 @@ html {
 	z-index: 0;
 	display: inline-block;
 	padding: 80px;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	transform: rotate(-90deg)
 }
 
@@ -8161,7 +8161,7 @@ html {
 .l-main.-about .c-timelineSec_row.-now .c-nowSec:after {
 	height: 172px;
 	content: "";
-	background: #50af9b;
+	background: #CD9D2B;
 	opacity: .9;
 	mix-blend-mode: hard-light
 }
@@ -8349,7 +8349,7 @@ html {
 		height: 4px
 	}
 	.l-main.-about .c-rankingSec_ranking::-webkit-scrollbar-thumb {
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.l-main.-about .c-rankingSec_ranking::-webkit-scrollbar-track {
 		background-color: rgba(16, 46, 161, .2)
@@ -8503,7 +8503,7 @@ html {
 }
 
 .l-main.-about .c-whyUsSec.-bgGrey .c-whyUsSec_swiper .swiper-pagination-progressbar-fill {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 @media (max-width:991px) {
@@ -9988,7 +9988,7 @@ html {
 }
 
 .l-main.-careers .c-jobOffer:hover .c-label {
-	color: #50af9b;
+	color: #CD9D2B;
 	background-color: #fdfdff
 }
 
@@ -9998,7 +9998,7 @@ html {
 
 .l-main.-careers .c-jobOffer:hover:after {
 	z-index: 2;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	opacity: 1
 }
 
@@ -10329,11 +10329,11 @@ html {
 }
 
 .l-main.-property .c-contentSec .c-floatingMenu_item.-active {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .l-main.-property .c-contentSec .c-floatingMenu_item.-active.-green {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .l-main.-property .c-contentSec .c-floatingMenu_item.-active.-green:before {
@@ -10536,7 +10536,7 @@ html {
 }
 
 .l-main.-property .c-contentSec .c-contentBlock.-description .c-preBoxes .swiper-pagination-progressbar-fill {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 @media (max-width:991px) {
@@ -10877,7 +10877,7 @@ html {
 }
 
 .l-main.-property .c-contentSec .c-contentBlock.-demographics .c-demographicsBox:first-child {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .l-main.-property .c-contentSec .c-contentBlock.-demographics .c-demographicsBox:nth-child(2) {
@@ -11926,7 +11926,7 @@ html {
 }
 
 .swiper-container .swiper-pagination-progressbar.-green .swiper-pagination-progressbar-fill {
-	background: #50af9b
+	background: #CD9D2B
 }
 
 .swiper-container .swiper-pagination-progressbar.-blue {
@@ -11934,7 +11934,7 @@ html {
 }
 
 .swiper-container .swiper-pagination-progressbar.-blue .swiper-pagination-progressbar-fill {
-	background: #50af9b
+	background: #CD9D2B
 }
 
 .swiper-container .c-arrowBtn.-disabled {
@@ -11959,7 +11959,7 @@ html {
 }
 
 .swiper-pagination-bullets.-green .swiper-pagination-bullet {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .swiper-button-next:after,
@@ -12296,7 +12296,7 @@ html {
 #klaro .cn-ok .cm-btn-success {
 	width: 241px;
 	color: #fdfdff;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	border: 0
 }
 
@@ -12556,7 +12556,7 @@ html {
 
 #klaro .cm-modal .cm-body .cm-services .cm-service .cm-list-input.only-required+.cm-list-label .slider,
 #klaro .cm-modal .cm-body .cm-services .cm-service .cm-list-input:checked+.cm-list-label .slider {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 #klaro .cm-modal .cm-footer-buttons {
@@ -12927,7 +12927,7 @@ button:focus {
 	height: 56px;
 	padding: 13px 15px 15px;
 	user-select: none;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	border: 0;
 	transition: background-color .1s ease-in
 }
@@ -12948,11 +12948,11 @@ button:focus {
 }
 
 .c-btn:hover {
-	background-color: #3d8172
+	background-color: #CD9D2B
 }
 
 .c-btn:active {
-	background-color: #0fbd98
+	background-color: #CD9D2B
 }
 
 .c-btn.-small {
@@ -12986,12 +12986,12 @@ button:focus {
 }
 
 .c-btn.-light:active {
-	border: 1px solid #0fbd98;
+	border: 1px solid #CD9D2B;
 	transition: border .1s ease-in
 }
 
 .c-btn.-light:active .c-btn_label {
-	color: #0fbd98;
+	color: #CD9D2B;
 	transition: color .1s ease-in
 }
 
@@ -13045,21 +13045,21 @@ button:focus {
 }
 
 .c-btn.-secondary.-grey:active {
-	border: 1px solid #0fbd98;
+	border: 1px solid #CD9D2B;
 	transition: border .1s ease-in
 }
 
 .c-btn.-secondary.-grey:active .c-btn_label {
-	color: #0fbd98;
+	color: #CD9D2B;
 	transition: color .1s ease-in
 }
 
 .c-btn.-secondary:hover {
-	border: 1px solid #50af9ba6
+	border: 1px solid #CD9D2B
 }
 
 .c-btn.-secondary:hover .c-btn_label {
-	color: #3d8172
+	color: #CD9D2B
 }
 
 .c-btn.-secondary:active {
@@ -13067,7 +13067,7 @@ button:focus {
 }
 
 .c-btn.-secondary:active .c-btn_label {
-	color: #0fbd98
+	color: #CD9D2B
 }
 
 .c-btn.-secondary.-greenHover:hover {
@@ -13091,7 +13091,7 @@ button:focus {
 }
 
 .c-btn.-green {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-btn.-green:hover {
@@ -13115,7 +13115,7 @@ button:focus {
 .c-arrowBtn {
 	width: 56px;
 	height: 56px;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: 24px 24px;
@@ -13194,7 +13194,7 @@ button:focus {
 }
 
 .c-arrowBtn.-green {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-arrowBtn.-green:hover {
@@ -13206,11 +13206,11 @@ button:focus {
 }
 
 .c-arrowBtn:hover {
-	background-color: #3d8172
+	background-color: #CD9D2B
 }
 
 .c-arrowBtn:active {
-	background-color: #0fbd98
+	background-color: #CD9D2B
 }
 
 .c-arrowBtn.-greenHover:hover {
@@ -13224,7 +13224,7 @@ button:focus {
 .c-downloadBtn {
 	width: 36px;
 	height: 36px;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	background-image: url("../images/download-white.4edaeeab.svg");
 	background-repeat: no-repeat;
 	background-position: 50%;
@@ -13233,11 +13233,11 @@ button:focus {
 }
 
 .c-downloadBtn:hover {
-	background-color: #3d8172
+	background-color: #CD9D2B
 }
 
 .c-downloadBtn:active {
-	background-color: #0fbd98
+	background-color: #CD9D2B
 }
 
 .c-playBtn {
@@ -13271,7 +13271,7 @@ button:focus {
 	justify-content: center;
 	width: 100%;
 	height: 100%;
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	border-radius: 100%
 }
 
@@ -13295,7 +13295,7 @@ button:focus {
 }
 
 .c-playBtn.-green .c-playBtn_inner {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-playBtn.-small {
@@ -13358,7 +13358,7 @@ button:focus {
 	width: 100%;
 	height: 2px;
 	content: "";
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	transition: background-color .1s ease-in
 }
 
@@ -13371,19 +13371,19 @@ button:focus {
 }
 
 .c-link:hover {
-	color: #3d8172
+	color: #CD9D2B
 }
 
 .c-link:hover:after {
-	background-color: #3d8172
+	background-color: #CD9D2B
 }
 
 .c-link:active {
-	color: #0fbd98
+	color: #CD9D2B
 }
 
 .c-link:active:after {
-	background-color: #0fbd98
+	background-color: #CD9D2B
 }
 
 .c-link.-disabled {
@@ -13449,7 +13449,7 @@ button:focus {
 }
 
 .c-arrowLink:not(.-noHover):not(.-back):hover {
-	color: #3d8172
+	color: #CD9D2B
 }
 
 .c-arrowLink:not(.-noHover):not(.-back):hover:after {
@@ -13462,7 +13462,7 @@ button:focus {
 }
 
 .c-arrowLink:active {
-	color: #0fbd98!important
+	color: #CD9D2B!important
 }
 
 .c-arrowLink:active:after {
@@ -13561,7 +13561,7 @@ button:focus {
 }
 
 .c-downloadLink.-blue:hover {
-	color: #3d8172
+	color: #CD9D2B
 }
 
 .c-downloadLink.-blue:hover:after {
@@ -13569,7 +13569,7 @@ button:focus {
 }
 
 .c-downloadLink.-blue:active {
-	color: #0fbd98
+	color: #CD9D2B
 }
 
 .c-downloadLink.-blue:active:after {
@@ -13602,7 +13602,7 @@ button:focus {
 }
 
 .c-countryLink:hover {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-countryLink:hover:after {
@@ -13998,7 +13998,7 @@ button:focus {
 	color: #f6f6f7;
 	text-transform: uppercase;
 	letter-spacing: .4px;
-	background: #50af9b
+	background: #CD9D2B
 }
 
 .c-label.-country {
@@ -14028,7 +14028,7 @@ button:focus {
 }
 
 .c-label.-green {
-	background: #50af9b
+	background: #CD9D2B
 }
 
 .c-label.-greenOpacity {
@@ -14111,11 +14111,11 @@ button:focus {
 }
 
 .c-breadcrumbs_link:hover {
-	color: #3d8172!important
+	color: #CD9D2B!important
 }
 
 .c-breadcrumbs_link:active {
-	color: #0fbd98!important
+	color: #CD9D2B!important
 }
 
 .c-breadcrumbs.-light .c-breadcrumbs_item {
@@ -14170,7 +14170,7 @@ button:focus {
 }
 
 .c-image.-sustainability:after {
-    background: #50af9b;
+    background: #CD9D2B;
     opacity: .95;
     mix-blend-mode: multiply;
 }
@@ -14180,7 +14180,7 @@ button:focus {
 }
 
 .c-image.-multiplyBlue:after {
-	background: #50af9b;
+	background: #CD9D2B;
 	mix-blend-mode: multiply
 }
 
@@ -14194,7 +14194,7 @@ button:focus {
 }
 
 .c-image.-hardLight:after {
-	background: #50af9b;
+	background: #CD9D2B;
 	opacity: .9;
 	mix-blend-mode: hard-light
 }
@@ -14308,7 +14308,7 @@ button:focus {
 }
 
 .c-stats.-max3 .c-stat:first-child {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-stats.-max3 .c-stat:first-child .t-title,
@@ -14358,7 +14358,7 @@ button:focus {
 }
 
 .c-stats.-max4 .c-stat:nth-child(3) {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-stats.-max4 .c-stat:nth-child(2)>*,
@@ -14380,7 +14380,7 @@ button:focus {
 }
 
 .c-stats.-max4-2 .c-stat:first-child {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-stats.-max4-2 .c-stat:nth-child(2),
@@ -14416,7 +14416,7 @@ button:focus {
 
 .c-stats.-max5 .c-stat:nth-child(2),
 .c-stats.-max5 .c-stat:nth-child(4) {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-stats.-max5 .c-stat:nth-child(3),
@@ -14438,7 +14438,7 @@ button:focus {
 
 .c-stats.-max5.-green .c-stat:nth-child(2),
 .c-stats.-max5.-green .c-stat:nth-child(4) {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-stats .c-stat {
@@ -14581,7 +14581,7 @@ button:focus {
 }
 
 .c-textDecor.-cBlue {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .c-textDecor.-cBlue span {
@@ -14601,7 +14601,7 @@ button:focus {
 }
 
 .c-textDecor.-cGreen {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .c-textDecor.-cGreen span {
@@ -16198,7 +16198,7 @@ button:focus {
 }
 
 .c-gallerySec.-bgGrey .swiper-pagination-bullet {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-gallerySec.-bgGrey .swiper-pagination-progressbar {
@@ -16206,11 +16206,11 @@ button:focus {
 }
 
 .c-gallerySec.-bgGrey .swiper-pagination-progressbar-fill {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-gallerySec.-bgGrey .swiper-pagination.-green .swiper-pagination-bullet {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-gallerySec.-bgGrey .swiper-pagination.-green .swiper-pagination-progressbar {
@@ -16218,7 +16218,7 @@ button:focus {
 }
 
 .c-gallerySec.-bgGrey .swiper-pagination.-green .swiper-pagination-progressbar-fill {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-article.-greenElements ul li:before {
@@ -16372,12 +16372,12 @@ button:focus {
 }
 
 .c-article_richText p a {
-	color: #50af9b;
+	color: #CD9D2B;
 	transition: color .1s ease-in
 }
 
 .c-article_richText p a:hover {
-	color: #3d8172
+	color: #CD9D2B
 }
 
 .c-article_pic {
@@ -16479,23 +16479,9 @@ button:focus {
 	position: relative
 }
 
-.c-quote:not(.-noDecor):before {
-	position: absolute;
-	top: -42px;
-	left: -56px;
-	display: block;
-	width: 130px;
-	height: 76px;
-	content: "";
-	background: url("../images/quote-transparent.svg") no-repeat 0 0
-}
 
-@media (max-width:991px) {
-	.c-quote:not(.-noDecor):before {
-		top: -36px;
-		left: -32px
-	}
-}
+
+
 
 .c-quote_signature {
 	font-family: 'Barlow', sans-serif;
@@ -16755,7 +16741,7 @@ button:focus {
 
 @media (min-width:992px) {
 	.c-factBox:hover {
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.c-factBox:hover .t-text,
 	.c-factBox:hover .t-title {
@@ -16783,7 +16769,7 @@ button:focus {
 
 @media (min-width:992px) {
 	.c-factBox.-green:hover {
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 }
 
@@ -16820,11 +16806,11 @@ button:focus {
 }
 
 .c-factBoxNoHover.-green {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-factBoxNoHover.-blue {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-infoBox {
@@ -16882,25 +16868,6 @@ button:focus {
 		padding: 24px 24px 72px
 	}
 }
-
-.c-logoBox_content:after {
-	position: absolute;
-	right: 40px;
-	bottom: 56px;
-	display: block;
-	width: 156px;
-	height: 212px;
-	content: "";
-	background-image: url("../images/logo.png");
-	mix-blend-mode: overlay
-}
-
-@media (max-width:991px) {
-	.c-logoBox_content:after {
-		display: none
-	}
-}
-
 .c-logoBox .c-image {
 	display: block
 }
@@ -16925,7 +16892,7 @@ button:focus {
 	.c-cardBox {
 		max-width: 288px;
 		height: 322px;
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 }
 
@@ -16939,7 +16906,7 @@ button:focus {
 
 @media (min-width:992px) {
 	.c-cardBox.-green:hover {
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.c-cardBox.-green:hover .c-image {
 		margin-top: -44px
@@ -16962,7 +16929,7 @@ button:focus {
 
 @media (min-width:992px) {
 	.c-cardBox:not(.-green):hover {
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.c-cardBox:not(.-green):hover .c-image {
 		margin-top: -24px
@@ -17859,7 +17826,7 @@ button:focus {
 
 @media (min-width:992px) {
 	.c-propertyBox:not(.-promo):not(.-light):hover {
-		background-color: #50af9b
+		background-color: #CD9D2B
 	}
 	.c-propertyBox:not(.-promo):not(.-light):hover .c-propertyBox_table {
 		opacity: 0;
@@ -17970,11 +17937,11 @@ button:focus {
 }
 
 .c-switches .c-switch:not(.-active):hover {
-	background-color: #3d8172
+	background-color: #CD9D2B
 }
 
 .c-switches .c-switch.-active {
-	background-color: #50af9b
+	background-color: #CD9D2B
 }
 
 .c-infoIconBox {
@@ -18425,7 +18392,7 @@ fieldset {
 
 .f-label a {
 	font-weight: 400;
-	color: #50af9b;
+	color: #CD9D2B;
 	text-decoration: underline
 }
 
@@ -18737,12 +18704,12 @@ fieldset {
 }
 
 .f-group.-checkbox .f-input:checked+.f-label:before {
-	background-color: #50af9b;
+	background-color: #CD9D2B;
 	background-image: url("../images/check_white.svg");
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: 16px;
-	border-color: #50af9b
+	border-color: #CD9D2B
 }
 
 .f-group.-checkbox .f-label {
@@ -18762,8 +18729,8 @@ fieldset {
 }
 
 .f-group.-checkbox.-green .f-input:checked+.f-label:before {
-	background-color: #50af9b;
-	border-color: #50af9b
+	background-color: #CD9D2B;
+	border-color: #CD9D2B
 }
 
 .f-group.-checkbox.-light .f-label {
@@ -18888,7 +18855,7 @@ fieldset {
 }
 
 .c-formWrapper.-success.-light .t-title span {
-	color: #50af9b
+	color: #CD9D2B
 }
 
 .f-newsletter {

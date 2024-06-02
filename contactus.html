@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Energy Technical Exchange</title>
+    <meta
+      name="description"
+      content="Energy Technical Exchange is a global consulting and event organising firm assisting in both international and private clients to plan, develop, design, construct, operate and maintain hundreds of critical infrastructures in oil and energy industry around the world."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="en.html" />
+    <meta property="og:image" content="images/Opengraph.png" />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="mask-icon" href="images/logo.png" color="#0C2174" />
+    <link
+      rel="apple-touch-icon"
+      href="build/website/images/apple-touch-icon.png"
+    />
+    <link rel="stylesheet" href="css/0.15792a1a.css" />
+    <link rel="stylesheet" href="css/app.d2ce54d0.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css"
+    />
+  </head>
+
+  <style>
+    body {
+      overflow-x: hidden;
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    input {
+      overflow: hidden;
+    }
+
+    .section-title {
+      position: relative;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      margin: 0 0 35px;
+    }
+
+    .sec-pad {
+      padding: 60px 0 0;
+      margin: 50px 0;
+    }
+
+    .contact-sec {
+      align-items: center;
+      display: flex;
+      background-color: #5cbde466;
+    }
+
+    .contact-sec .contact-ul li,
+    .contact-ul b {
+      font-size: 20px;
+      margin: 10px 0;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      word-wrap: break-word;
+    }
+
+    .contact-sec .contact-ul i {
+      font-size: 18px;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+
+    .contact-sec .contact-ul li b:hover {
+      color: #f93;
+    }
+
+    .contact-sec .contact-ul li .fa-location-dot {
+      color: #f44337;
+      border: 2px solid #f4433790;
+    }
+
+    .contact-sec .contact-ul li .fa-phone {
+      color: #00b055;
+      border: 2px solid #00b05590;
+    }
+
+    .contact-sec .contact-ul li .fa-envelope {
+      color: #ff6347;
+      border: 2px solid #ff634790;
+    }
+
+    .contact-detail span {
+      width: 400px;
+      display: flex;
+      justify-content: center;
+    }
+    .contact-detail span a {
+      font-size: 20px;
+      padding: 6px 12px;
+      color: #000;
+      border-radius: 50%;
+      margin: 0px 5px;
+    }
+    .contact-detail span .fb {
+      color: #3b5998;
+      border: 3px solid #3b5998;
+    }
+    .contact-detail span .fb:hover {
+      color: #fff;
+      background-color: #3b5998;
+    }
+
+    .contact-detail span .insta {
+      color: #833ab4;
+      border: 3px solid #833ab4;
+    }
+    .contact-detail span .insta:hover {
+      color: #fff;
+      background-color: #833ab4;
+    }
+
+    .contact-detail span .twitter {
+      color: #00acee;
+      border: 3px solid #00acee;
+    }
+    .contact-detail span .twitter:hover {
+      color: #fff;
+      background-color: #00acee;
+    }
+
+    form.contFrm {
+      max-width: 396px;
+      margin: auto;
+    }
+
+    .inptFld {
+      width: 100%;
+      height: 50px;
+      border: 0;
+      margin: 0 0 10px;
+      border-radius: 8px;
+      padding: 0 20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .inptFld:focus {
+      outline-offset: -4px;
+      outline: 1px solid #f93;
+    }
+
+    .contFrm textarea {
+      height: 75px;
+      padding-top: 5px;
+    }
+    .inptBtn {
+      height: 50px;
+      border: 0;
+      background: #00b055;
+      font-size: 14px;
+      color: #fff;
+      margin: auto;
+      letter-spacing: 1px;
+      cursor: pointer;
+      width: 100%;
+      max-width: 200px;
+    }
+
+    /* Responcive css Start */
+
+    @media (max-width: 991px) {
+      .sec-pad {
+        padding: 20px 0 0px;
+      }
+
+      .contact-sec .contact-ul li,
+      .contact-ul b {
+        font-size: 18px;
+      }
+
+      .contact-sec .contact-ul i {
+        font-size: 14px;
+        padding: 6px;
+        margin-right: 6px;
+      }
+
+      .inptFld {
+        height: 40px;
+        margin: 0 0 10px;
+        padding: 0 14px;
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .contact-detail span {
+        width: auto;
+      }
+      .contact-detail span a {
+        font-size: 18px;
+        padding: 5px 10px;
+        color: #000;
+        border-radius: 50%;
+        margin: 0px 5px 20px;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .section-title {
+        font-size: 26px;
+        font-weight: 500;
+      }
+      .contact-sec {
+        border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+      }
+
+      .contact-sec .contact-ul i {
+        border: none;
+      }
+      .inptFld {
+        height: 36px;
+        margin: 0 0 8px;
+        padding: 0 14px;
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contact-sec .contact-ul li,
+      .contact-ul b {
+        font-size: 16px;
+      }
+    }
+  </style>
+  <body class="homepage">
+    <span
+      class="js-anlInfo"
+      data-lang="en"
+      data-country="Global"
+      data-page="Homepage"
+    ></span>
+
+    <!-- Leedfeeder -->
+
+    <div class="l-page">
+      <header class="l-header -bgGrey">
+        <div class="container-fluid l-header_container">
+          <div class="row l-header_row">
+            <div class="col-md-auto l-header_col -nav">
+              <a href="index.html" class="l-header_logo"></a>
+              <div class="l-header_nav">
+                <ul class="c-navHorizontal -main">
+                  <li class="c-navHorizontal_item -withSubmenu -about">
+                    <a
+                      href="aboutus.html"
+                      title="About Us"
+                      class="c-navHorizontal_link"
+                      >About Us</a
+                    >
+                    <div class="c-navHorizontal_submenu">
+                      <div class="c-submenu -tabs">
+                        <div class="c-submenu_sidebar -bgGreyBox">
+                          <a
+                            href="aboutus.html"
+                            class="c-arrowLink -back -light d-lg-none"
+                            >About Us</a
+                          >
+                          <ul class="c-navVertical -sidebar -pb32md">
+                            <li class="c-navVertical_item" data-tab="our-story">
+                              <a
+                                href="./aboutus.html#vision"
+                                class="c-navVertical_link"
+                              >
+                                Vision
+                              </a>
+                            </li>
+
+                            <li
+                              class="c-navVertical_item"
+                              data-tab="independent-ranking"
+                            >
+                              <a
+                                href="./aboutus.html#mission"
+                                class="c-navVertical_link"
+                              >
+                                Mission
+                              </a>
+                            </li>
+
+                            <li class="c-navVertical_item" data-tab="why-us">
+                              <a
+                                href="./aboutus.html#goals"
+                                class="c-navVertical_link"
+                              >
+                                Goals
+                              </a>
+                            </li>
+                          </ul>
+                          <div class="c-submenu_btnContainer d-lg-none -pb32">
+                            <!-- <a href="aboutus.html" class="c-btn">
+                              <span class="c-btn_label">Read all</span>
+                            </a> -->
+                          </div>
+                        </div>
+                        <div class="c-submenu_content d-none d-lg-flex">
+                          <div
+                            class="c-submenu_tab -active"
+                            data-tab="our-story"
+                          >
+                            <figure class="c-image">
+                              <img
+                                loading="lazy"
+                                src="images/vision1.PNG"
+                                alt="about Energy Technical Exchange interntional"
+                              />
+                            </figure>
+
+                            <div class="c-submenu_text">
+                              <h5 class="t-title -cGrey -f22sb -mb16">
+                                VISION
+                              </h5>
+                              <p class="t-text -cGreyOpacity">
+                                To be the premier oil and gas company recognised
+                                globally for delivering innovative and impactful
+                                events that drive industry growth, knowledge
+                                sharing and networking opportunities.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div
+                            class="c-submenu_tab"
+                            data-tab="independent-ranking"
+                          >
+                            <figure class="c-image">
+                              <img
+                                loading="lazy"
+                                src="images/mission11.PNG"
+                                alt="about our team Energy Technical Exchange international"
+                              />
+                            </figure>
+
+                            <div class="c-submenu_text">
+                              <h5 class="t-title -cGrey -f22sb -mb16">
+                                MISSION
+                              </h5>
+                              <p class="t-text -cGreyOpacity">
+                                Through our events, we aim to facilitate
+                                meaningful discussions, foster partnerships and
+                                contribute to the development of the oil and gas
+                                sector
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="c-submenu_tab" data-tab="why-us">
+                            <figure class="c-image">
+                              <img
+                                loading="lazy"
+                                src="images/goals1.PNG"
+                                alt="why choose Energy Technical Exchange international"
+                              />
+                            </figure>
+
+                            <div class="c-submenu_text">
+                              <h5 class="t-title -cGrey -f22sb -mb16">Goals</h5>
+                              <p class="t-text -cGreyOpacity">
+                                By pursuing these goals, Energy Technical
+                                Exchange aims to make a meaningful and lasting
+                                impact on the oil and gas industry, driving its
+                                growth, fostering collaboration and GOALS
+                                contributing to a sustainable energy future.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="c-navHorizontal_item -withSubmenu -sustainability">
+                    <a
+                      href="ourservice.html"
+                      title="Sectors"
+                      class="c-navHorizontal_link"
+                      >Our Services</a
+                    >
+                    <div class="c-navHorizontal_submenu">
+                      <div class="c-submenu -countries">
+                        <div class="c-submenu_sidebar d-lg-none">
+                          <a
+                            href="ourservice.html"
+                            class="c-arrowLink -back -light d-lg-none"
+                            >Our Service</a
+                          >
+                          <ul class="c-navVertical -countries -pb32md">
+                            <li class="c-navVertical_item">
+                              <a
+                                href="./ourservice.html#planing"
+                                target="_blank"
+                                rel="noopener"
+                                class="c-navVertical_link -newTab"
+                              >
+                                <h2>
+                                  <span
+                                    style="color: white"
+                                    class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                    >Planning & Event Design</span
+                                  >
+                                </h2>
+                              </a>
+                            </li>
+
+                            <a
+                              href="./ourservice.html#selection"
+                              target="_blank"
+                              rel="noopener"
+                              class="c-navVertical_link -newTab"
+                              ><h2>
+                                <span
+                                  style="color: white"
+                                  class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                  >Venue <br />
+                                  Selection</span
+                                >
+                              </h2>
+                            </a>
+
+                            <a
+                              href="./ourservice.html#visual"
+                              target="_blank"
+                              rel="noopener"
+                              class="c-navVertical_link -newTab"
+                            >
+                              <h2>
+                                <span
+                                  style="color: white"
+                                  class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                  >Audio & <br />
+                                  Visual</span
+                                >
+                              </h2>
+                            </a>
+
+                            <a
+                              href="./ourservice.html#sales"
+                              target="_blank"
+                              rel="noopener"
+                              class="c-navVertical_link -newTab"
+                            >
+                              <h2>
+                                <span
+                                  style="color: white"
+                                  class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                  >Sponsorship & <br />
+                                  Delegate Sales
+                                </span>
+                              </h2>
+                            </a>
+
+                            <a
+                              href="./ourservice.html#Fabrication"
+                              target="_blank"
+                              rel="noopener"
+                              class="c-navVertical_link -newTab"
+                            >
+                              <h2>
+                                <span
+                                  style="color: white"
+                                  class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                  >Booth <br />
+                                  Fabrication
+                                </span>
+                              </h2>
+                            </a>
+
+                            <a
+                              href="./ourservice.html#Management"
+                              target="_blank"
+                              rel="noopener"
+                              class="c-navVertical_link -newTab"
+                            >
+                              <h2>
+                                <span
+                                  style="color: white"
+                                  class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                  >Speaker Management
+                                </span>
+                              </h2>
+                            </a>
+                          </ul>
+                          <div class="c-submenu_btnContainer d-lg-none -pb32">
+                            <a href="./ourservice.html" class="c-btn">
+                              <span class="c-btn_label">All Services</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="c-submenu_content -dl24 d-none d-lg-grid">
+                          <a
+                            href="./ourservice.html#planing"
+                            target="_blank"
+                            rel="noopener"
+                            class="c-submenu_country c-countryLink -mb24"
+                          >
+                            <h2>
+                              <span
+                                style="color: white"
+                                class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                >Planning & Event Design</span
+                              >
+                            </h2>
+                          </a>
+
+                          <a
+                            href="./ourservice.html#selection"
+                            target="_blank"
+                            rel="noopener"
+                            class="c-submenu_country c-countryLink -mb24"
+                          >
+                            <h2>
+                              <span
+                                style="color: white"
+                                class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                >Venue <br />
+                                Selection</span
+                              >
+                            </h2>
+                          </a>
+
+                          <a
+                            href="./ourservice.html#visual"
+                            target="_blank"
+                            rel="noopener"
+                            class="c-submenu_country c-countryLink -mb24"
+                          >
+                            <h2>
+                              <span
+                                style="color: white"
+                                class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                >Audio & <br />
+                                Visual</span
+                              >
+                            </h2>
+                          </a>
+
+                          <a
+                            href="./ourservice.html#sales"
+                            target="_blank"
+                            rel="noopener"
+                            class="c-submenu_country c-countryLink -mb24"
+                          >
+                            <h2>
+                              <span
+                                style="color: white"
+                                class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                >Sponsorship & <br />
+                                Delegate Sales
+                              </span>
+                            </h2>
+                          </a>
+
+                          <a
+                            href="./ourservice.html#Fabrication"
+                            target="_blank"
+                            rel="noopener"
+                            class="c-submenu_country c-countryLink -mb24"
+                          >
+                            <h2>
+                              <span
+                                style="color: white"
+                                class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                >Booth <br />
+                                Fabrication
+                              </span>
+                            </h2>
+                          </a>
+
+                          <a
+                            href="./ourservice.html#Management"
+                            target="_blank"
+                            rel="noopener"
+                            class="c-submenu_country c-countryLink -mb24"
+                          >
+                            <h2>
+                              <span
+                                style="color: white"
+                                class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp -animated"
+                                >Speaker Management
+                              </span>
+                            </h2>
+                          </a>
+
+                          <a
+                            href="./ourservice.html"
+                            class="c-submenu_cases -mb24"
+                          >
+                            <span class="c-arrowLink -light -noHover"
+                              >All Services</span
+                            >
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li
+                    class="c-navHorizontal_item -withSubmenu -properties -noLink"
+                  >
+                    <a
+                      href="./ourevents.html"
+                      title="Our Events"
+                      class="c-navHorizontal_link"
+                      >Our Events</a
+                    >
+                  </li>
+
+                  <li class="c-navHorizontal_item -contact">
+                    <a
+                      href="./contactus.html"
+                      title="Contact"
+                      class="c-navHorizontal_link"
+                      >Contact</a
+                    >
+
+                    <div class="c-navHorizontal_submenu"></div>
+                  </li>
+                </ul>
+
+                <div class="l-header_switches -mt32 -dt8 d-lg-none">
+                  <div class="f-select">
+                    <input
+                      type="text"
+                      name="connect"
+                      id="connect"
+                      class="d-none"
+                    />
+                    <div class="f-select_input">Connect With Us</div>
+                    <ul class="c-optionList d-none">
+                      <li class="c-optionList_item" data-value="call">
+                        <a
+                          href="tel:+97142828399"
+                          class="c-optionList_link"
+                          target="_blank"
+                          rel="noopener"
+                          >+971 (0) 42828399
+                          <span class="c-icon -newTab -grey"></span>
+                        </a>
+                      </li>
+
+                      <li class="c-optionList_item" data-value="email">
+                        <a
+                          href="mailto:info@energy-te.com"
+                          class="c-optionList_link"
+                          target="_blank"
+                          rel="noopener"
+                          >info@energy-te.com
+                          <span class="c-icon -newTab -grey"></span>
+                        </a>
+                      </li>
+
+                      <li class="c-optionList_item" data-value="youtube">
+                        <a
+                          href="https://www.youtube.com/channel/UC8uCm7bR8QyDMEHzxkH2ThQ"
+                          class="c-optionList_link"
+                          target="_blank"
+                          rel="noopener"
+                          >Youtube
+                          <span class="c-icon -newTab -grey"></span>
+                        </a>
+                      </li>
+
+                      <li class="c-optionList_item" data-value="linkedin">
+                        <a
+                          href="#"
+                          class="c-optionList_link"
+                          target="_blank"
+                          rel="noopener"
+                          >Linkedin
+                          <span class="c-icon -newTab -grey"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="l-header_socials -mt32 -dl12 d-lg-none">
+                  <a
+                    class="c-socialIcon"
+                    href="https://www.linkedin.com/company/energy-technicalexchange"
+                  >
+                    <span class="c-icon -s24 -youtube"></span>
+                  </a>
+                  <a class="c-socialIcon" href="#">
+                    <span class="c-icon -s24 -linkedin"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto l-header_col -switches d-none d-lg-flex">
+              <div class="c-dropdown">
+                <div class="c-dropdown_label t-title -f14">Connect With Us</div>
+                <div class="c-dropdown_options">
+                  <ul class="c-navVertical -countries -withBottomLine">
+                    <li class="c-navVertical_item">
+                      <a
+                        href="tel:+97142828399"
+                        target="_blank"
+                        rel="noopener"
+                        class="c-navVertical_link -newTab"
+                      >
+                        <span class="c-flag -pl"></span>
+                        +971 (0) 42828399
+                      </a>
+                    </li>
+                    <li class="c-navVertical_item">
+                      <a
+                        href=" info@energy-te.com"
+                        target="_blank"
+                        rel="noopener"
+                        class="c-navVertical_link -newTab"
+                      >
+                        <span class="c-flag -de"></span>
+                        info@energy-te.com
+                      </a>
+                    </li>
+
+                    <li class="c-navVertical_item">
+                      <a
+                        href="https://www.youtube.com/channel/UC9pNhgMbxAT2H4O8IbbPNKg"
+                        target="_blank"
+                        rel="noopener"
+                        class="c-navVertical_link -newTab"
+                      >
+                        <span class="c-flag -es"></span>
+                        Youtube
+                      </a>
+                    </li>
+                    <li class="c-navVertical_item">
+                      <a
+                        href="https://www.linkedin.com/company/energy-technicalexchange"
+                        target="_blank"
+                        rel="noopener"
+                        class="c-navVertical_link -newTab"
+                      >
+                        <span class="c-flag -cz"></span>
+                        LinkedIn
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="./contactus.html"
+                    target="_blank"
+                    rel="noopener"
+                    class="c-arrowLink -light -mt32 -mb8"
+                    >Contact Us</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-auto l-header_col -hamburger d-lg-none">
+              <a class="c-hamburger" href="index.html">
+                <div class="c-hamburger_inner">
+                  <div class="c-hamburger_strip"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="l-main invest">
+        <section class="c-heroSec -pt56 -pt40md -pb96md -bgGrey">
+          <div class="container c-heroSec_container">
+            <div class="row c-heroSec_row -pl70 -pr70 -mb120 -mb56md">
+              <div class="col">
+                <ul class="c-breadcrumbs">
+                  <li class="c-breadcrumbs_item">
+                    <a href="index.html" class="c-breadcrumbs_link">Home</a>
+                  </li>
+                  <li class="c-breadcrumbs_item">Contact Us</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row c-heroSec_row -pl70 -pr70 -mb72 -mb40md">
+              <div class="col">
+                <div
+                  class="c-textDecor -cDark -mdColors d-none d-sm-block js-lazy a-fadeInUp"
+                >
+                  Contact Us<br />
+
+                  <span
+                    class="d-flex c-textDecor_circleWord"
+                    style="font-size: 5vw"
+                    >Energy Technical Exchange Internati
+                    <div class="c-roundText a-spin">
+                      <img loading="lazy" src="images/opportunities.svg" />
+                    </div>
+                    nal
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="row c-heroSec_row -pl70 -pr70">
+              <div class="col-lg-8 col-xl-7 offset-lg-4 offset-xl-5"></div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="c-newsletterSec -bgDark -pt144 -pt288md -pb144 -pb64md js-formSec"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div
+                  class="c-roundText a-spin d-none d-lg-block js-lazy a-fadeIn -lazyDelay800 -animated"
+                  style="position: absolute; right: 60px; top: 60px"
+                >
+                  <img
+                    loading="lazy"
+                    src="images/Black_And_Yellow_minimalist__Modern_Fitness_Center_-_Business_Card-removebg-preview-removebg-preview.png"
+                  />
+                </div>
+                <div class="contact-detail">
+                  <h2
+                    class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp"
+                  >
+                    Contact <span style="display: inline-block"> Us</span>
+                  </h2>
+
+                  <ul class="contact-ul">
+                    <li class="-cGrey -mb16 t-title -f18_32sb">
+                      <i class="fa fa-location-dot"></i> Al Mozna , Office no:
+                      219, Al Qusais 1, Dubai
+                    </li>
+
+                    <li class="-cGrey -mb16 t-title -f18_32sb">
+                      <a href="tel:+97142828399"><b>+971 (0) 42828399</b></a>
+                    </li>
+
+                    <li class="-cGrey -mb16 t-title -f18_32sb">
+                      <i class="fa-solid fa-envelope"></i>
+                      <a href="mailto:pardeepkumar4bjp@gmail.com"
+                        ><b> info@energy-te.com</b></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <form
+                  class="my-3"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  id="form"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="2ae94608-f02b-417f-b80b-958c47d22036"
+                  />
+                  <input
+                    type="hidden"
+                    name="subject"
+                    value="New Submission from Web3Forms"
+                  />
+                  <input
+                    type="checkbox"
+                    name="botcheck"
+                    id=""
+                    style="display: none"
+                  />
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <input
+                        type="text"
+                        name="name"
+                        id="first_name"
+                        placeholder="first name"
+                        class="inptFld"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-sm-6">
+                      <input
+                        type="text"
+                        name="last_name"
+                        id="lname"
+                        placeholder="last name"
+                        class="inptFld"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-sm-6">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="your email"
+                        class="inptFld"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-sm-6">
+                      <input
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        class="inptFld"
+                        placeholder="your phone number"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-12">
+                      <textarea
+                        class="inptFld"
+                        rows="8"
+                        cols="5"
+                        name="message"
+                        id="message"
+                        placeholder="Your Message..."
+                        required
+                      ></textarea>
+                    </div>
+
+                    <div class="col-12" style="text-align: center">
+                      <input
+                        type="submit"
+                        name="submit"
+                        value="SUBMIT"
+                        style="
+                          color: white;
+                          cursor: pointer;
+                          background-color: #cd9d2b;
+                          align-items: center;
+                          justify-content: center;
+                          width: fit-content;
+                          min-width: 240px;
+                          height: 56px;
+                          padding: 13px 15px 15px;
+                        "
+                      />
+                    </div>
+                    <p
+                      class="text-base text-center text-gray-400"
+                      id="result"
+                    ></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="c-googleMapsSec -bgDark -pt144 -pt123md -pb168 -pb40md">
+          <div class="container">
+            <div class="row c-googleMapsSec_row -pl70 -pr70">
+              <div class="col c-googleMapsSec_col">
+                <div class="c-googleMapsSec_mapContainer">
+                  <h2
+                    class="t-title -cTextDarkBg -f28md -pb72 -pb32md c-googleMapsSec_header js-lazy a-fadeInUp"
+                  >
+                    Our <span> Location</span>
+                  </h2>
+                  <div class="a-fadeInRight js-lazy -lazyDelay200">
+                    <figure class="c-image -fullMobile" style="width: 100%">
+                      <div style="width: 100%">
+                        <iframe
+                          width="100%"
+                          height="600"
+                          frameborder="0"
+                          scrolling="no"
+                          marginheight="0"
+                          marginwidth="0"
+                          src="https://maps.app.goo.gl/ftuBF32mdKK4fXnJ8"
+                          ><a href="https://www.gps.ie/">gps devices</a></iframe
+                        >
+                      </div>
+                    </figure>
+                  </div>
+                  <div class="c-googleMapsSec_map -bgDark">
+                    <div
+                      class="c-map js-lazy a-fadeInUp -lazyDelay200 -elVisibility30"
+                    ></div>
+
+                    <div class="c-textDecor -cTextDarkBg c-googleMapsSec_decor">
+                      Our Location
+                      <br />
+                      <span>in Middle East</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="c-modal" id="modal_video" aria-hidden="true">
+        <div class="c-modal_overlay" tabindex="-1" data-micromodal-close="">
+          <div
+            class="c-modal_content"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal_video-title"
+          >
+            <button type="submit" class="c-modal_close"></button>
+            <div class="c-videoModal">
+              <div class="c-videoModal_inner">
+                <video
+                  id="my-player"
+                  class="video-js c-videoModal_video"
+                  controls=""
+                  autoplay=""
+                  poster=""
+                  data-setup="{}"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="l-footer -bgDark">
+      <div class="container l-footer_container -pt120 -pt48md -pb92 -pb72md">
+        <div class="row -pl70 -pr70">
+          <div
+            class="col l-footer_col -verticalCols d-lg-flex js-lazy a-fadeInUp -elVisibility30"
+          >
+            <div class="l-footer_nav -navVertical">
+              <span
+                class="t-title -cGrey -f18_32sb -mb16 -mb24md js-collapse -md"
+                data-target="nav4"
+                data-group="nav"
+              >
+                <a href="./aboutus.html">About Us</a>
+              </span>
+
+              <ul class="c-navVertical -dt12 -dt16md -mb24md" id="nav4">
+                <li class="c-navVertical_item">
+                  <a href="./aboutus.html#vision" class="c-navVertical_link"
+                    >VISION</a
+                  >
+                </li>
+
+                <li class="c-navVertical_item">
+                  <a href="./aboutus.html#mission" class="c-navVertical_link"
+                    >MISSION</a
+                  >
+                </li>
+
+                <li class="c-navVertical_item">
+                  <a href="./aboutus.html#goals" class="c-navVertical_link"
+                    >Goals</a
+                  >
+                </li>
+              </ul>
+
+              <span
+                class="t-title -cGrey -f18_32sb -mb16 -mb24md js-collapse -md"
+                data-target="nav3"
+                data-group="nav"
+              >
+                <a href="index.html#sector">Sectors</a>
+              </span>
+
+              <ul class="c-navVertical -dt12 -dt16md -mb24md" id="nav3">
+                <li class="c-navVertical_item">
+                  <a href="index.html#sector" class="c-navVertical_link"
+                    >Oil and Gas Industry</a
+                  >
+                </li>
+
+                <li class="c-navVertical_item">
+                  <a href="index.html#sector" class="c-navVertical_link"
+                    >Petrochemical Industry</a
+                  >
+                </li>
+
+                <li class="c-navVertical_item">
+                  <a href="index.html#sector" class="c-navVertical_link"
+                    >Mining Industry</a
+                  >
+                </li>
+
+                <li class="c-navVertical_item">
+                  <a href="index.html#sector" class="c-navVertical_link"
+                    >Water Industry</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="l-footer_nav -navVertical">
+              <span
+                class="t-title -cGrey -f18_32sb -mb16 -mb24md js-collapse -md"
+                data-target="nav5"
+                data-group="nav"
+                >Our Events</span
+              >
+
+              <ul class="c-navVertical -dt12 -dt16md -mb24md" id="nav5">
+                <li class="c-navVertical_item">
+                  <a href="./ourevents.html" class="c-navVertical_link"
+                    >Maintrel 2022</a
+                  >
+                </li>
+                <li class="c-navVertical_item">
+                  <a href="./ourevents.html" class="c-navVertical_link"
+                    >Maintrel 2023</a
+                  >
+                </li>
+                <li class="c-navVertical_item">
+                  <a href="./ourevents.html" class="c-navVertical_link"
+                    >Maintrel 2024</a
+                  >
+                </li>
+                <li class="c-navVertical_item">
+                  <a href="./ourevents.html" class="c-navVertical_link"
+                    >Produced Water 2023</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="l-footer_nav -navVertical">
+              <a
+                href="./ourservice.html"
+                class="t-title -cGrey -f18_32sb -mb8 -mb24md"
+                >All services</a
+              >
+
+              <a
+                href="contactus.html"
+                class="t-title -cGrey -f18_32sb -mb8 -mb24md"
+                >Contact us</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="l-footer_backToTop js-lazy a-fadeInUp">
+          <a href="#" class="c-arrowBtn -top d-none d-lg-block"></a>
+        </div>
+      </div>
+      <div class="l-footer_wrapper -pt24 -pt30md -pb24 -pb26md">
+        <div class="container">
+          <div class="row -pl70 -pr70">
+            <div class="col">
+              <div class="row l-footer_row -bottom justify-content-between">
+                <div class="col-auto l-footer_col -copyright">
+                  <p class="t-text -f14 -f12md -wLight -cGreyOpacity">
+                    2024, Energy Technical Exchange International ©
+                  </p>
+                </div>
+
+                <div class="col-auto l-footer_col -author -mb8md -pt26md">
+                  <p
+                    class="t-text -f14 -f12md -wLight -cGreyOpacity l-footer_bisons"
+                  >
+                    Designed &amp; Developed by Leen
+                  </p>
+                  <a
+                    href="./index.html"
+                    class="c-arrowBtn -small -top js-lazy a-fadeInUp d-lg-none"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="c-sidebar d-none d-lg-flex js-lazy a-fadeIn">
+      <a
+        class="c-sidebar_logo js-lazy a-fadeIn -lazyDelay400"
+        href="./index.html"
+      ></a>
+      <div class="c-sidebar_socials">
+        <div class="c-sidebar_icon">
+          <a
+            href="https://www.youtube.com/channel/UC9pNhgMbxAT2H4O8IbbPNKg"
+            class="d-flex"
+          >
+            <span class="c-icon -youtube"></span>
+          </a>
+        </div>
+        <div class="c-sidebar_icon">
+          <a
+            href="https://www.linkedin.com/company/energy-technicalexchange"
+            class="d-flex"
+          >
+            <span class="c-icon -linkedin"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script defer="" type="text/javascript" src="js/klaro-no-css.js"></script>
+    <script src="js/runtime.27ab012a.js"></script>
+    <script src="js/analytics.84aef8a4.js"></script>
+    <script src="js/0.e15989e4.js"></script>
+    <script src="js/app.f294664b.js"></script>
+  </body>
+</html>
