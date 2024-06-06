@@ -408,7 +408,7 @@ body {
 }
 
 .t-title {
-	font-size: 36px;
+	font-size: 18px;
 	line-height: 1.05556;
 	font-weight: 700
 }
@@ -614,7 +614,7 @@ body {
 		font-family: 'Barlow', sans-serif;
 	}
 	.t-title.-f26md {
-		font-size: 26px;
+		font-size: 15px;
 		line-height: 1.07692
 	}
 	.t-title.-f22md {
@@ -654,6 +654,11 @@ body {
 	line-height: 1.75;
 	font-weight: 400;
 	color: rgba(2, 12, 30, .65)
+}
+
+@media (max-width: 991px) {
+	.t-text {
+		font-size: 12px;}
 }
 
 .t-text,
@@ -7684,7 +7689,7 @@ html {
 
 @media (max-width:991px) {
 	.l-main.-caseStudy .c-heroSec_buttons {
-		flex-direction: column
+		flex-direction: column;
 	}
 }
 
@@ -7916,7 +7921,8 @@ html {
 }
 
 @media (max-width:991px) {
-	.l-main.-about .c-heroSec_buttons {
+	.l-main.-about .c-heroSec_buttons,
+	.ourservice .c-heroSec_buttons {
 		flex-direction: column
 	}
 }
@@ -13589,6 +13595,7 @@ button:focus {
     display: flex;
     align-items: center;
     width: calc(100% - 24px);
+	height: 100%;
     padding: 0px 32px;
     margin-right: 12px;
     margin-left: 12px;
@@ -14202,8 +14209,7 @@ button:focus {
 }
 
 .c-image.-hardLight:after {
-	background: #CD9D2B;
-	opacity: .9;
+	background: rgb(79 58 9 / 62%);
 	mix-blend-mode: hard-light
 }
 
@@ -14494,7 +14500,7 @@ button:focus {
 @media (max-width:991px) {
 	.c-textDecor {
 		font-family: 'Barlow', sans-serif;
-		font-size: 56px;
+		font-size: 1.3em;
 		font-weight: 700;
 		line-height: .92857;
 		text-transform: uppercase;
