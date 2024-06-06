@@ -3987,7 +3987,14 @@ html {
 	.l-header.-bgGreyMd:not(.-submenuOpened):not(.-mobileActive) .l-header_col.-nav .c-navHorizontal_item.-properties .c-navHorizontal_link {
 		color: #002b38!important
 	}
-	.l-header.-bgGreyMd:not(.-submenuOpened):not(.-mobileActive) .l-header_col.-nav .c-navHorizontal_item.-properties .c-navHorizontal_link:after {
+	.l-header .c-navHorizontal_item .-active {
+		font-weight: 600;
+	}
+	
+	.l-header.-bgGreyMd:not(.-submenuOpened):not(.-mobileActive) .l-header_col.-nav .c-navHorizontal_item.-active .c-navHorizontal_link:after {
+		background-color: #002b38
+	}
+	.l-header .l-header_col.-nav .c-navHorizontal_item.-active .c-navHorizontal_link:after {
 		background-color: #002b38
 	}
 	.l-header.-bgGreyMd:not(.-submenuOpened):not(.-mobileActive) .l-header_col.-switches .c-dropdown:before {
@@ -4195,7 +4202,8 @@ html {
 
 @media (min-width:992px) {
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-active .c-navHorizontal_link {
-		color: #f6f6f7
+		color: #f6f6f7;
+		font-weight: 600;
 	}
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-active .c-navHorizontal_link:before {
 		background: #f6f6f7;
@@ -4235,20 +4243,20 @@ html {
 }
 
 @media (min-width:992px) {
-	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-properties {
+	/* .l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-properties {
 		padding-top: 26px;
 		padding-bottom: 26px
-	}
+	} */
 }
 
 @media (min-width:992px) {
 	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-properties .c-navHorizontal_link {
 		font-family: 'Barlow', sans-serif;;
-		font-size: 16px;
-		line-height: 1.75;
-		font-weight: 600;
+		font-size: 14px;
+		/* line-height: 1.75; */
 		color: #f6f6f7
 	}
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -4258,7 +4266,7 @@ html {
 }
 
 @media (min-width:992px) {
-	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-properties .c-navHorizontal_link:after {
+	.l-header_col.-nav .c-navHorizontal.-main .c-navHorizontal_item.-active .c-navHorizontal_link:after {
 		position: absolute;
 		bottom: -2px;
 		left: 0;
@@ -4266,7 +4274,7 @@ html {
 		width: 100%;
 		height: 2px;
 		content: "";
-		background-color: #f6f6f7;
+		background-color: #002b38;
 		transition: background-color .2s ease-in-out
 	}
 }
@@ -6770,7 +6778,7 @@ html {
 
 .l-main.-homepage.-local .c-searchSec .c-teaser {
 	position: relative;
-	z-index: 2
+	z-index: 2;
 }
 
 .l-main.-homepage.-local .c-searchSec .c-teaser .t-title {
