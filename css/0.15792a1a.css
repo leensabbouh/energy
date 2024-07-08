@@ -2286,3 +2286,6 @@ body {
   color: whitesmoke;
   font-size: 72px;
 }
+.anychart-credits{
+  display: none;
+}

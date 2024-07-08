@@ -20,6 +20,14 @@
     />
     <link rel="stylesheet" href="css/0.15792a1a.css" />
     <link rel="stylesheet" href="css/app.d2ce54d0.css" />
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>
+    <script src="https://cdn.anychart.com/geodata/latest/custom/world/world.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/themes/dark_blue.min.js"></script>
   </head>
   <body class="homepage">
     <span
@@ -1241,13 +1249,7 @@
                     Attendees <span> Worldwide</span>
                   </h2>
                   <div class="a-fadeInRight js-lazy -lazyDelay200">
-                    <figure class="c-image -fullMobile" style="width: 100%">
-                      <img
-                        loading="lazy"
-                        src="images/wordwide.PNG"
-                        alt="Energy Technical Exchange Managing Partners"
-                      />
-                    </figure>
+                    <div id="container"></div>
                   </div>
                 </div>
               </div>
@@ -1459,5 +1461,113 @@
 
     <script src="js/0.e15989e4.js"></script>
     <script src="js/app.f294664b.js"></script>
+    
+  <script>
+
+    anychart.onDocumentReady(function () {
+	// set chart theme
+anychart.theme('darkBlue');
+      // The data used in this sample can be obtained from the CDN
+      // https://cdn.anychart.com/samples/maps-bubble/bubble-earthquakes-map/data.json
+      anychart.data.loadJsonFile(
+        'https://cdn.anychart.com/samples/maps-bubble/bubble-earthquakes-map/data.json',
+        function (data) {
+          // Creates data set
+          var dataSet = anychart.data.set(data);
+
+          // Creates Map Chart
+          var map = anychart.map();
+
+          // Sets geodata using https://cdn.anychart.com/geodata/latest/custom/world/world.js
+          map.geoData('anychart.maps.world');
+
+          map
+            .credits()
+            .enabled(true)
+            .url('https://en.wikipedia.org/wiki/Lists_of_earthquakes')
+            .text(
+              'Data source: https://en.wikipedia.org/wiki/Lists_of_earthquakes'
+            )
+            .logoSrc('https://en.wikipedia.org/static/favicon/wikipedia.ico');
+
+          // Sets Chart Title
+          map
+            .title()
+            .enabled(true)
+            .text('')
+            .padding([0, 0, 20, 0]);
+
+          map.interactivity().selectionMode('none');
+
+          // Sets bubble max size settings
+          map.minBubbleSize('0.5%').maxBubbleSize('1.5%');
+
+          // Creates bubble series
+          map
+            .bubble()
+            .data(dataSet)
+            // Sets series settings
+            .geoIdField('iso_a2')
+            .fill('#ff8f00 0.6')
+            .stroke('1 #ff6f00 0.9');
+          map.hovered().fill('#78909c').stroke('1 #546e7a 1');
+
+          map
+            .tooltip()
+            .useHtml(true)
+            .title({ fontColor: '#7c868e' })
+            .padding([8, 13, 10, 13])
+            .format(function () {
+              var value =
+                '<span style="color: #545f69; font-size: 12px; font-weight: bold">';
+              var date =
+                '<br/><span style="color: #7c868e; font-size: 11px">';
+              var description =
+                '<br/><span style="color: #7c868e; font-size: 12px; font-style: italic">"';
+              if (this.getData('description') !== '') {
+                return (
+                  value +
+                  this.size +
+                  'M </span></strong>' +
+                  description +
+                  this.getData('description') +
+                  '"</span>' +
+                  date +
+                  this.getData('date') +
+                  '</span>'
+                );
+              }
+              return (
+                value +
+                this.size +
+                'M </span></strong>' +
+                date +
+                this.getData('date') +
+                '</span>'
+              );
+            });
+
+          map
+            .tooltip()
+            .background()
+            .enabled(true)
+            .fill('#fff')
+            .stroke('#c1c1c1')
+            .corners(3)
+            .cornerType('round');
+
+          // create zoom controls
+          var zoomController = anychart.ui.zoom();
+          zoomController.render(map);
+
+          // Sets container id for the chart
+          map.container('container');
+          // Initiates chart drawing
+          map.draw();
+        }
+      );
+    });
+  
+</script>
   </body>
 </html>
