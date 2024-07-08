@@ -596,7 +596,7 @@
                       />
                     </video>
                   </div>
-                  <div class="c-hero_content -pt192 -pt152md -pb184 -pb0md">
+                  <div class="c-hero_content -pt100 -pt152md -pb184 -pb0md">
                     <img
                       loading="lazy"
                       class="a-fadeInUp -lazyDelay200 logo-home-image"
@@ -656,7 +656,7 @@
               <div class="col c-heroSec_col">
                 <div
                   class="c-heroSec_box -bgBlue -mt62md a-fadeInUp"
-                  style="background: linear-gradient(315deg, #5a639c, #e2bbe9)"
+                  style="background: linear-gradient(315deg, #758694, #111f29)"
                 >
                   <div
                     class="c-roundText a-spin a-fadeIn -lazyDelay800 -elVisibility30"
@@ -684,7 +684,7 @@
         </section>
         <section class="c-numbersSec -pt144md">
           <div
-            class="container -pb240 -pb104md c-numbersSec_container -content -bgDark"
+            class="container -pb240 -pb104md c-numbersSec_container -content"
           >
             <div class="row">
               <div class="col">
@@ -701,25 +701,14 @@
             </div>
           </div>
         </section>
-
         <section
           class="c-mapSec -bgGrey -pt138 -pt266md -pb386 -pb48md"
-          style="
-            background-image: url('uploads/media/x1745/05/5-map-v=1-0.png');
-          "
+          style="background-image: url('images/5-map-v=1-0.png')"
         >
           <div class="container">
             <div class="row">
               <div class="col col-lg-9">
-                <div style="cursor: none">
-                  <div
-                    class="dot"
-                    style="will-change: transform; transform-style: preserve-3d"
-                  ></div>
-                  <div
-                    class="cursor"
-                    style="will-change: transform; transform-style: preserve-3d"
-                  ></div>
+                <div>
                   <div class="-pl70">
                     <h2
                       class="t-title -cTextWhiteBg -f28md c-mapSec_title a-fadeInUp js-lazy"
@@ -1432,6 +1421,11 @@
       </div>
     </footer>
 
+    <div
+      class="cursor"
+      style="will-change: transform; transform-style: preserve-3d"
+    ></div>
+
     <div class="c-sidebar d-none d-lg-flex js-lazy a-fadeIn">
       <a
         class="c-sidebar_logo js-lazy a-fadeIn -lazyDelay400"
@@ -1461,89 +1455,66 @@
 
     <script src="js/0.e15989e4.js"></script>
     <script src="js/app.f294664b.js"></script>
-    
-  <script>
 
-    anychart.onDocumentReady(function () {
-	// set chart theme
-anychart.theme('darkBlue');
-      // The data used in this sample can be obtained from the CDN
-      // https://cdn.anychart.com/samples/maps-bubble/bubble-earthquakes-map/data.json
-      anychart.data.loadJsonFile(
-        'https://cdn.anychart.com/samples/maps-bubble/bubble-earthquakes-map/data.json',
-        function (data) {
-          // Creates data set
+    <script>
+      anychart.onDocumentReady(function () {
+        anychart.theme("darkBlue");
+        anychart.data.loadJsonFile("Data.json", function (data) {
           var dataSet = anychart.data.set(data);
 
-          // Creates Map Chart
           var map = anychart.map();
 
-          // Sets geodata using https://cdn.anychart.com/geodata/latest/custom/world/world.js
-          map.geoData('anychart.maps.world');
-
-          map
-            .credits()
-            .enabled(true)
-            .url('https://en.wikipedia.org/wiki/Lists_of_earthquakes')
-            .text(
-              'Data source: https://en.wikipedia.org/wiki/Lists_of_earthquakes'
-            )
-            .logoSrc('https://en.wikipedia.org/static/favicon/wikipedia.ico');
+          map.geoData("anychart.maps.world");
 
           // Sets Chart Title
-          map
-            .title()
-            .enabled(true)
-            .text('')
-            .padding([0, 0, 20, 0]);
+          map.title().enabled(true).text("").padding([0, 0, 20, 0]);
 
-          map.interactivity().selectionMode('none');
+          map.interactivity().selectionMode("none");
 
           // Sets bubble max size settings
-          map.minBubbleSize('0.5%').maxBubbleSize('1.5%');
+          map.minBubbleSize("0.5%").maxBubbleSize("1.5%");
 
           // Creates bubble series
           map
             .bubble()
             .data(dataSet)
             // Sets series settings
-            .geoIdField('iso_a2')
-            .fill('#ff8f00 0.6')
-            .stroke('1 #ff6f00 0.9');
-          map.hovered().fill('#78909c').stroke('1 #546e7a 1');
+            .geoIdField("iso_a2")
+            .fill("#ff8f00 0.6")
+            .stroke("1 #ff6f00 0.9");
+          map.hovered().fill("#78909c").stroke("1 #546e7a 1");
 
           map
             .tooltip()
             .useHtml(true)
-            .title({ fontColor: '#7c868e' })
+            .title({ fontColor: "#7c868e" })
             .padding([8, 13, 10, 13])
             .format(function () {
               var value =
                 '<span style="color: #545f69; font-size: 12px; font-weight: bold">';
-              var date =
-                '<br/><span style="color: #7c868e; font-size: 11px">';
+              var date = '<br/><span style="color: #7c868e; font-size: 11px">';
               var description =
                 '<br/><span style="color: #7c868e; font-size: 12px; font-style: italic">"';
-              if (this.getData('description') !== '') {
+              if (this.getData("description") !== "") {
                 return (
                   value +
                   this.size +
-                  'M </span></strong>' +
+                  "M </span></strong>" +
                   description +
-                  this.getData('description') +
+                  this.getData("description") +
                   '"</span>' +
                   date +
-                  this.getData('date') +
-                  '</span>'
+                  this.getData("date") +
+                  "</span>"
                 );
               }
               return (
                 value +
                 this.size +
-                'M </span></strong>' +
+                "M </span></strong>" +
                 date +
-                this.getData('date') +
-                '</span>'
+                this.getData("date") +
+                "</span>"
               );
             });
 
@@ -1551,23 +1522,21 @@ anychart.theme('darkBlue');
             .tooltip()
             .background()
             .enabled(true)
-            .fill('#fff')
-            .stroke('#c1c1c1')
+            .fill("#fff")
+            .stroke("#c1c1c1")
             .corners(3)
-            .cornerType('round');
+            .cornerType("round");
 
           // create zoom controls
           var zoomController = anychart.ui.zoom();
           zoomController.render(map);
 
           // Sets container id for the chart
-          map.container('container');
+          map.container("container");
           // Initiates chart drawing
           map.draw();
-        }
-      );
-    });
-  
-</script>
+        });
+      });
+    </script>
   </body>
 </html>
