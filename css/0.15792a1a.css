@@ -2248,9 +2248,7 @@ button.swiper-pagination-bullet {
 }
 
 /* Background Animation */
-body {
-  cursor: auto;
-}
+
 .cursor {
   z-index: 1;
   background-color: #758694;
@@ -2268,15 +2266,6 @@ body {
   overflow: visible;
 }
 
-.dot {
-  z-index: 999;
-  border: 2px solid transparent;
-  border-radius: 20px;
-  width: 10px;
-  height: 10px;
-  position: fixed;
-}
-
 .text {
   display: flex;
   align-items: center;
@@ -2286,10 +2275,9 @@ body {
   color: whitesmoke;
   font-size: 72px;
 }
-.anychart-credits{
+.anychart-credits {
   display: none;
 }
-
 
 
 @keyframes scroll {
